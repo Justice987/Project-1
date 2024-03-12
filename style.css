@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+#navbar {
+    padding: 20px;
+
+}
+
+#logo {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    padding-bottom: 0px;
+}
+
+h2 {
+    
+    text-align: center;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#Banner2 {
+    height: 100%;
+    width: 100%;
+
+}
+
+#About {
+    display: flex;
+
+}
+
+#description {
+    width: 50%;
+    padding: 10px;
+
+
+}
+
+#Team image {
+    width: 50%;
+
+}
+
+#team-image {
+    border-radius: 6px;
+    width: 105%;
+    height: 80%;
+}
+
+#job-table {
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding-top: 20px;
+    margin-left: 250px;
+}
+
+.jobs-header-row th {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#jobs-table tr:nth-child(odd) {
+    background-color: red;
+}
+
+.jobs-data-row td {
+    border: 1px solid gray;
+    padding: 20px;
+    max-width: 800px;
+}
+
+
+#application{
+    max-width: 800px;
+    margin : 0 auto;
+    padding: 0 80px;
+   
+}
+
+#application-form label {
+
+font-weight: 600;
+
+}
+
+#application-form input,select, textarea{
+    padding : 8px;
+    font-size: 20;
+    margin-top: 4px;
+    border-radius: 5px;
+    border : 1px solid gray;
+
+}
+
+.form-group textarea{
+    width : 80%;
+    height : 200px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.form-group{
+    margin : 16px 0;
+    margin-left : 250px; 
+}
+
+.form-group input[ type="checkbox"]{
+   width : 16px;
+   height : 16px;
+}
+
+.form-group input[ type="submit"]{
+  background-color: blue; 
+  color: white;
+  font-weight: 600;  
+  cursor : pointer;
+
+ }
+
+
+#Jobs {
+    max-width: 800px;
+    margin: 10px;
+    padding: 0, 8px;
+
+}
+
+#jobe-role {
+
+    margin: 10px;
+    padding: 8px;
+}
+
+.Apply {
+    float: right;
+}
+
+#footer {
+    background-color: ghostwhite;
+    padding: 8px;
+    margin: 32px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+    padding: 8px;
+}
+
+#footer-links li {
+    display: inline;
+    padding: 8px;
+
+}
+
+#copyright {
+    color: red;
+}
+
+
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MY FIRST WEBPAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="bird"
+            src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?t=st=1703538869~exp=1703539469~hmac=b6c6fa274c59ec929dea40c291c5891114e75180fae1610563f6a97120b3f2f4" />
+    </div>
+    <img id="Banner2" src="Banner2.jpg">
+    <h1> ABOUT JOVIAN</h1>
+    <div id="About">
+        <div id="description">
+            <p style="margin-top: 0;">
+                Mybitstore is a global cryptocurrency company.
+                It offers Peer-to-peer (P2P), Business-to-Business (B2B),
+                Business-To-Consumer and Over-the-Counter (OTC) cryptocurrency
+                trading services. All Rights Reserved. Mybitstore Limited does not claim
+                to have any sort of relation with any payment system, money transfer company
+                or any other form of money reloadable card companies. The companies may include
+                MTN Mobile Money, Vodafone Cash, Airtel Money, Payoneer, WorldRemit, Paxum, Paypal,
+                MoneyGram, Western Union, Amazon, OkPay, Payza, Walmart, NetSpend, Chase QuickPay, Skrill,
+                Vanilla, MyVanilla, OneVanilla, Neteller, Reloadit, Perfect Money, WebMoney, Google Wallet,
+                BlueBird, Serve, Square Cash, Apple, ChimpChange but not limited to only the above
+                mentioned payment methods. It includes all other payment methods that are not mentioned in the
+                above payment methods. We do not claim to be partners or about being supported by or supporting
+                these payment methods or services. Their respective wordmarks and/or trademarks
+                belong to them alone.A secure peer-to-peer crypto exchange platform
+                that connects crypto buyers and sellers to facilitate online and
+                face-to-face crypto transactions.Now P2P is easier than ever!
+                We also offer two indutry programs
+            <ol style="margin-left: 0px">
+                <li>
+                    <a href="https://www.mybitstore.com/about">
+                        Cloud computing bootcamp
+                    </a>
+                </li>
+                <li><a href="https://www.mybitstore.com/about">
+                        Data Science bootcamp</a>
+
+                </li>
+            </ol>
+        </div>
+        <div id="Banner3">
+            <img id="team-image" src="Banner3.jpg" alt="Banner" height="300">
+        </div>
+    </div>
+
+    <h2>JOB OPPORTUNITIES </h2>
+    <div id="Jobs">
+        <table id="job-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">JOB TITLE</th>
+                <th colspan="2">LOCATION </th>
+                <th rowspan="2">SALARY</th>
+                <th rowspan="2">POSTED ON</th>
+            </tr>
+
+            <tr class="jobs-header-row">
+                <th>CITY</th>
+                <th>COUNTRY</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td> Accra</td>
+                <td>GHANA</td>
+                <td>GH₵ 10,000</td>
+                <td>24TH DECEMBER 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full-stack Developer</td>
+                <td> New Jersey </td>
+                <td>USA</td>
+                <td>GH₵ 50,000</td>
+                <td>27TH DECEMBER 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Backend Developer</td>
+                <td> Rome</td>
+                <td>ITALY</td>
+                <td>GH₵ 70,000</td>
+                <td>30TH DECEMBER 2023</td>
+
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td> Barcelona</td>
+                <td>SPAIN</td>
+                <td>GH₵ 20,000</td>
+                <td>31TH DECEMBER 2023</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!--HTML FORMS-->
+    <div id="Application">
+        <h3>SUMBIT YOUR APPLICATION</h3>
+        <form id="application-form">
+
+            <div class="form-group">
+                <label for="name">Full name</label><br>
+                <input type="text" id="name" name="Fullname" placeholder="John Mensah" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="emailaddress" name="email" placeholder="john@example.com " required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone number</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="+233 55 555 5555" required>
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" id="dob" name="dib" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position"> Postion Applied for</label><br>
+                <select id="postion" name="Position Applied" required>
+                    <option value="">Select Position</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Backend">Backend Developer</option>
+                    <option value="Fullstack">Fullstack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="resume"> Resume</label><br>
+                <input type="file" id="resume" name="Resume" accept="doc,docx,pdf," required>
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter"> Cover letter</label><br>
+                <textarea id="coverletter" name="coverletter" row="5"
+                    placeholder="Explain why you think you are a good fit for this position">
+            </textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit Application">
+            </div>
+
+        </form>
+
+    </div>
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.mybitstore.com/about" target="_blank">
+                    COURSE
+                </a>
+
+            </li>
+            <li>
+                <a href="https://www.mybitstore.com/about" target="_blank">
+                    PROGRAMS</a>
+            </li>
+            <li>
+                <a href="https://www.mybitstore.com/about" target="_blank">
+                    YOUTUBE</a>
+            </li>
+        </ul>
+        <div id="copyright">Copy right © 2023 </div>
+    </div>
+
+</body>
+
+
+</html>

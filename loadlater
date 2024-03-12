@@ -1,0 +1,15 @@
+ <div>
+            <a href="https://www.udemy.com/course/javascript-basics-for-beginners/learn/lecture/10688694#overview" target="_blank" class="Apply">APPLY</a>
+            <h3 class="job-role">Frontend Developer</h3>
+            <div class="worktype"> Manual work</div>
+        </div>
+        <div>
+            <a href="https://www.udemy.com/course/javascript-basics-for-beginners/learn/lecture/10688694#overview" target="_blank" class="Apply">APPLY</a>
+            <h3 class="job-role">Backend Developer</h3>
+            <div class="worktype">Remote work</div>
+        </div>
+        <div>
+            <a href="https://www.udemy.com/course/javascript-basics-for-beginners/learn/lecture/10688694#overview" target="_blank" class="Apply">APPLY</a>
+            <h3 class="job-role">Fullstack Developer</h3>
+            <div class="worktype"> Remote work</div>
+        </div>
